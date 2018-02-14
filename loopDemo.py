@@ -34,9 +34,11 @@ while i<= 10:
 for i in range(27,44,2):
     print(i)
 """
-
-while i in range(27,44,2)
+i = 27
+while i <= 43:
     print(i)
+    i += 2
+    
 
 """
 #add up the numbers from 1 to 5
