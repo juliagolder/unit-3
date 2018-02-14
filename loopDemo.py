@@ -50,6 +50,7 @@ for i in range(1,6):
     total = total + i
 print(total)
 """
+
 total = 0
 i = 1
 while i <= 5:
