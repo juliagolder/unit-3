@@ -4,7 +4,7 @@
 
 from ggame import *
 
-RADIUS = 25
+RADIUS = 10
 
 red = Color(0xFF0000,1)
 
