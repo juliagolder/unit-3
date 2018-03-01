@@ -4,9 +4,11 @@
 
 from ggame import *
 
+RADIUS = 25
+
 red = Color(0xFF0000,1)
 
-dot = CircleAsset(25,LineStyle(1,red),red)
+dot = CircleAsset(RADIUS,LineStyle(1,red),red)
 
 for i in range(10): #putting a row of dots
     for j in range(12):
