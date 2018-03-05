@@ -12,7 +12,7 @@ for i in range(50,17,-4):
     print(i)
 
 total = 0
-for i in range(-100,1000,2):
+for i in range(-100,1001,2):
     total = total + i
 print(total)
 
