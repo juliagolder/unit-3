@@ -2,15 +2,21 @@
 #3/1/18
 #numberGuessingGame.py
 
-text = int(input('Guess a number between 1 and 100: '))
+
 
 import from randint(1,100)
 
-if num == 64:
-    print('This is correct!')
-elif num < 64
-    print('This is too high!')
-elif num > 64
-    print('This is too low!')
-else:
-    print('This is odd!')
+num = randint(1,100)
+
+
+while True:
+    guess = int(input('Guess a number between 1 and 100: '))
+    total = total + 1
+    if guess == num:
+        print('You go it in', total, 'tries')
+        break
+    elif guess > num:
+        print('This is too high!')
+    else:
+        print('This is too low!')
+    
