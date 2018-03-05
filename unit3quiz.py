@@ -3,7 +3,6 @@
 #unit3quiz.py
 
 
-
 i = -15
 while i<= -9:
     print(i)
