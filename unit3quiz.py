@@ -18,7 +18,7 @@ for i in range(-100,1000,2):
 print(total)
 
 while True:
-    text = input('Enter text: ')
-    if text == 'alpaca':
+    word = input('Enter text: ')
+    if word == 'alpaca':
         break
-    print(text)
+    print(word)
