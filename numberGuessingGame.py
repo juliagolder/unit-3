@@ -4,10 +4,11 @@
 
 
 
-import from randint(1,100)
+from random import randint
 
 num = randint(1,100)
 
+total = 0
 
 while True:
     guess = int(input('Guess a number between 1 and 100: '))
@@ -19,4 +20,3 @@ while True:
         print('This is too high!')
     else:
         print('This is too low!')
-    
